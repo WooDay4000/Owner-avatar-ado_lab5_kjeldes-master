@@ -9,7 +9,7 @@ using MMABooksEFClasses.Models;
 
 namespace MMABooksRestAPI.Controllers
 {
-    // The ROUTE is the URL http://localhost:44321/apt/states
+    // The ROUTE is the URL http://localhost:44321/apt/customers
     [Route("api/[controller]")]
     [ApiController]
     public class CustomersController : ControllerBase
