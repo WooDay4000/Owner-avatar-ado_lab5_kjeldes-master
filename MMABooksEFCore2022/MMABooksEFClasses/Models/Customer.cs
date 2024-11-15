@@ -40,7 +40,7 @@ namespace MMABooksEFClasses.Models
         // relational data through object-oriented
         // properties, eliminating the need for SQL
         // joins or direct foreign key management.
-        public virtual State StateNavigation { get; set; } = null!;
+        public virtual State StateNavigation { get; set; }
         public virtual ICollection<Invoice> Invoices { get; set; }
     }
 }
