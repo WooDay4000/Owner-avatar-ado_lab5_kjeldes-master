@@ -10,6 +10,7 @@ using MMABooksEFClasses.Models;
 namespace MMABooksRestAPI.Controllers
 {
     // The ROUTE is the URL http://localhost:44321/apt/states
+    // Route specify how the html wil
     [Route("api/[controller]")]
     [ApiController]
     public class StatesController : ControllerBase
