@@ -143,7 +143,7 @@ namespace MMABooksRestAPI.Controllers
         {
             // If the Customers DbSet is null, it returns
             // a ProblemDetails response indicating that
-            // the 'Customers' entity set in the database
+            // the "Customers" entity set in the database
             // context is null.
             if (_context.Customers == null)
             {
@@ -152,7 +152,7 @@ namespace MMABooksRestAPI.Controllers
             // Adds the new Customer object to the database context.
             _context.Customers.Add(customer);
             // Asynchronously saves the changes to the database,
-            // committing the new Customer object to the database
+            // committing the new Customer object to the database.
             await _context.SaveChangesAsync();
             // This generates a 201 Created HTTP response,
             // using the GetCustomer action to generate the
